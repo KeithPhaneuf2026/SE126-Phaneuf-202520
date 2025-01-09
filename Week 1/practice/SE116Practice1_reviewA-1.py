@@ -33,7 +33,7 @@ def again(): #<--FUNCTION HEADER
 def converter(f):
     #'f' is a parameter
     '''this function is passed an argument value of 'f' (a temp), converts to tempC, and then returns the conversion value'''
-    c == (f - 32) * (5 / 9)
+    c = (f - 32) * (5 / 9)
 
     return c
 
