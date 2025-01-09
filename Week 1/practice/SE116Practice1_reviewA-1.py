@@ -30,6 +30,9 @@ def again(): #<--FUNCTION HEADER
     print("see you space cowboy!")
 
 
+
+
+
 def converter(f):
     #'f' is a parameter
     '''this function is passed an argument value of 'f' (a temp), converts to tempC, and then returns the conversion value'''
@@ -37,6 +40,9 @@ def converter(f):
 
     return c
 
+
+x = converter(10)
+print(x)
 #--------MAIN EXECUTING CODE----------------------------------
 
 #initializing needed variables
