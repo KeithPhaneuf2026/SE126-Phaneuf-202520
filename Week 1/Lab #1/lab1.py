@@ -22,15 +22,15 @@
 #allow          helps display difference between max_room and people
 
 #FUNCTIONS
-def decision(response): #function header
+def decision(): #function header
     '''this function asks a user if they'd like to enter another temp, checks the response for validility, and then returns a valid response back to the main program'''
 
-    response = input("Would you like to test a room capacity? [y/n]").lower()
+    response = input("Would you like to test another room capacity? [y/n]").lower()
 
     #user error trap loop - ensures user provides valid value
     while response != "y" and response != "n":
         print("***INVALID ENTRY!***")
-        response = input("Would you like to test a room capacity? [y/n]").lower()
+        response = input("Would you like to test another room capacity? [y/n]").lower()
 
     return response #this value will replace the function call in the main code
 
@@ -39,17 +39,12 @@ def difference(people, max_room): #when the capacity of the room is not met
     diff = max_room - people
     
     return diff #this value will replace the function call in the main code
-def neg_difference(people, max_room): #for when there are too many people
-
-    diff = people - max_room
-    
-    return diff #this value will replace the function call in the main code
 
 #MAIN CODE
 
-response = input("Press y to start: [y]").lower() #using to start program
+response = "y" #using to start program
 
-while decision(response) == "y" and response == "y": #while loop for while user uses program for calculations
+while response == "y": #while loop for while user uses program for calculations
     response = "n"
     meeting_name = input("What is the name of the meeting? ")
     max_room = int(input("What is the maximum capacity of the room? "))
@@ -61,8 +56,8 @@ while decision(response) == "y" and response == "y": #while loop for while user 
         
     else: #if there are too many people signed up for the meeting
         print("The meeting can not be held as planned due to fire regulations!")
-        allow = neg_difference(people, max_room)
+        allow = abs(difference(people, max_room))
         print(f"{allow} person/people must be removed from the meeting to meet fire regulations. ")
-    response = "y" #helps keep code working properly
+    response = decision() #helps keep code working properly
 
 print("Have a great day!") #end message
