@@ -49,8 +49,27 @@ Search Menu
 #Variable Dictionary
 
 
+#Functions
+def letter(num):
+    if num >= 90:
+        letterGrade = "A"
+    elif num >= 80:
+        letterGrade = "B"
+    elif num >= 70:
+        letterGrade = "C"
+    elif num >= 60:
+        letterGrade = "D"
+    elif num <= 60:
+        letterGrade = "F"
+    else:
+        letterGrade = "ERROR"
+    
+    return letterGrade
 #imports
 import csv
+
+#record counting variable
+total_records = 0
 
 #lists
 firstName = []
@@ -60,11 +79,15 @@ test2 = []
 test3 = []
 
 #connected
+print(f"{'FIRST':10}  {'LAST':10}   {'T1':3}  {'T2':3}  {'T3':3} {'num_avg'}  {"let_avg"}")
+print("-----------------------------------------------------------------------------")
 with open("Week 4\Week4inclasslab\class_grades-2.csv") as csvfile:
 
     file = csv.reader(csvfile)
 
     for rec in file:
+        #counts records
+        total_records += 1
         #store data from current record to corresponding lists (each field on its own)
         #.append --> data dispersed across lists, connected by the same index
         
@@ -74,3 +97,26 @@ with open("Week 4\Week4inclasslab\class_grades-2.csv") as csvfile:
         test1.append(int(rec[2]))
         test2.append(int(rec[3]))
         test3.append(int(rec[4]))
+
+num_avg = []
+let_avg = []
+
+for i in range(0, len(test1)):
+
+    a = (test1[i] + test2[i] + test3[i]) / 3
+    num_avg.append(a)
+    let_avg.append(letter(a))
+
+for index in range(0, len(firstName)):
+    #for every item, index will start at 0 and run up to (not including) the length (# of items)
+    print(f"{firstName[index]:10}  {lastName[index]:10}  {test1[index]:3}  {test2[index]:3}  {test3[index]:3}  {num_avg[index]:.2f}    {let_avg[index]}")
+print("-----------------------------------------------------------------------------")
+
+#finds the entire class average using a for loop to add each student's avg to the class total
+total_avg = 0
+for i in range(0, len(num_avg)):
+    total_avg += num_avg[i]
+
+class_avg = total_avg / len(num_avg)
+
+print(f"\nTOTAL RECORDS: {total_records}\nCURRENT CLASS AVERAGE: {class_avg:.2f}\n\nGoodbye!")
