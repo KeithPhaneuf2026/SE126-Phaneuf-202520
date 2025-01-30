@@ -1,12 +1,12 @@
 #Keith Phaneuf
 #SE126.04
-#Lab 2
+#in class lab
 #1-27-2025 [W4D1]
 
 #PROGRAM PROMPT:
 '''Part 1
 
-Write a program that reads the data file (below) and stores the data into 1D parallel lists (remember, one list for every field).  Once the lists are populated (and the file is "closed"), process the lists to reprint the file data, record by record as they originally appear in the file.
+Done: Write a program that reads the data file (below) and stores the data into 1D parallel lists (remember, one list for every field).  Once the lists are populated (and the file is "closed"), process the lists to reprint the file data, record by record as they originally appear in the file.
 
 Original File Headers
 
@@ -18,7 +18,7 @@ Firstname          Lastname        Test1         Test2             Test3
 
 Part 2
 
-Next, reprocess the lists to find each student's current average score, letter grade equivalent, and the class average.  While processing in the for loop, store each student's average into a new list called 'num_avg' and their letter grade into a list called 'let_avg'. Then, print each student's full information, record by record including average score and average letter equivalent.  After this print of the original file data from the lists, print to the console the total number of student's in the class along with the class numeric average.  
+Done: Next, reprocess the lists to find each student's current average score, letter grade equivalent, and the class average.  While processing in the for loop, store each student's average into a new list called 'num_avg' and their letter grade into a list called 'let_avg'. Then, print each student's full information, record by record including average score and average letter equivalent.  After this print of the original file data from the lists, print to the console the total number of student's in the class along with the class numeric average.  
 
  
 
@@ -47,7 +47,24 @@ Search Menu
 4. Exit'''
 
 #Variable Dictionary
-
+#firstName          list of first names
+#lastName           list of last names
+#test1              list of test1 grades
+#test2              list of test2 grades
+#test3              list of test3 grades
+#num                number that reflects grade of test in letter() function
+#letterGrade        determines letter grade in letter() function
+#total_records      counts total number of records/students
+#num_avg            determines average grade
+#let_avg            determines letter grade for student
+#total_avg          adds up all student averages to find class average
+#class_avg          class average grade
+#answer             allows while loop to be used by user command
+#searchType         a numeric value used to run different sequential searches
+#found              if value changes, value inputted by users was found
+#searchLast         input value for last name search
+#searchFirst        input value for first name search
+#searchLetter       input value for letter grade
 
 #Functions
 def letter(num):
@@ -119,4 +136,76 @@ for i in range(0, len(num_avg)):
 
 class_avg = total_avg / len(num_avg)
 
-print(f"\nTOTAL RECORDS: {total_records}\nCURRENT CLASS AVERAGE: {class_avg:.2f}\n\nGoodbye!")
+print(f"\nTOTAL RECORDS: {total_records}\nCURRENT CLASS AVERAGE: {class_avg:.2f}")
+
+#sequential search
+print("\nWelcome to Student Search")
+answer = input("Would you like to search for a student's records? (Y/N)").lower()
+while answer == "y":
+
+    print("\t~Search Menu~")
+    print("1. Search by LAST name")         #one search value found
+    print("2. Search by FIRST name")
+    print("3. Search by LETTER grade")      #multiple search values found
+    print("4. EXIT")
+
+    searchType = input("Enter your method of search (1-4)")
+
+    if searchType == "1":   #last name
+        print("Searching by LAST name")
+        found = -1
+        searchLast = input("Enter the LAST name of the person you wish to search:")
+        for i in range(0, len(lastName)):
+            if searchLast.lower() == lastName[i].lower():
+                found = i
+        
+        if found != -1:
+            print(f"Your search for {searchLast} was FOUND! Here is their data: ")
+            print(f"{firstName[found]:10}  {lastName[found]:10}  {test1[found]:3}  {test2[found]:3}  {test3[found]:3}  {num_avg[found]:6.1f}  {let_avg[found]}")
+        else: 
+            #NOT found
+            print(f"Your search for {searchLast} was NOT FOUND")
+            print("Please check casing and/or spelling")
+    elif searchType == "2": #first name
+        print("Searching by FIRST name")
+        found = -1
+        searchFirst = input("Enter the FIRST name of the person you wish to search:")
+        for i in range(0, len(firstName)):
+            if searchFirst.lower() == firstName[i].lower():
+                found = i
+        
+        if found != -1:
+            print(f"Your search for {searchFirst} was FOUND! Here is their data: ")
+            print(f"{firstName[found]:10}  {lastName[found]:10}  {test1[found]:3}  {test2[found]:3}  {test3[found]:3}  {num_avg[found]:6.1f}  {let_avg[found]}")
+        else: 
+            #NOT found
+            print(f"Your search for {searchFirst} was NOT FOUND")
+            print("Please check casing and/or spelling")
+    elif searchType == "3": #letter grade
+        print("Searching by LETTER grade")
+        found = []
+        searchLetter = input("Enter the LETTER grade of the student/s you wish to search:")
+        for i in range(0, len(let_avg)):
+            if searchLetter.upper() == let_avg[i]:
+                found.append(i)
+                print(f"Found a {searchLetter} grade in INDEX {i}")
+        if not found:
+            print(f"Your search for {searchLast} was NOT FOUND")
+            print("Please check casing and/or spelling")
+        else:
+            print(f"Found a {searchLetter} grade in INDEX {i}")
+            for i in range(0, len(found)):
+                print(f"{firstName[found[i]]:10}  {lastName[found[i]]:10}  {test1[found[i]]:3}  {test2[found[i]]:3}  {test3[found[i]]:3}  {num_avg[found[i]]:6.1f}  {let_avg[found[i]]}")
+    elif searchType == "4": #exit
+        print("\t~EXIT~")
+        answer = "x"
+    else:
+        print("\t!INVALID ENTRY!")
+    
+    #build a way out of the loop - answer should be able to change value! 
+    if searchType == "1" or searchType == "2" or searchType == "3":
+        #when search_type == "3" the user has chosen to exit, and if they did not provide a 1, 2, or 3 to search_type then they will automatically be brought back through the loop to see the menu again
+        answer = input("Would you like to search again? [y/n]: ").lower()
+
+
+print("\nThanks for using the search program. Goodbye!\n")
