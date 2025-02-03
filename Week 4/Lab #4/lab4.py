@@ -60,27 +60,27 @@ with open ("Week 4/Lab #4/got_emails.csv") as csvfile:
         if rec[4] == "House Stark":
             department.append("Research and Development")
             totalResearch += 1
-            phoneExtension.append(random.choice([100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129]))
+            phoneExtension.append(random.randint(100, 199))
         elif rec[4] == "House Targaryen":
             department.append("Marketing")
             totalMarketing += 1
-            phoneExtension.append(random.choice([200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229]))
+            phoneExtension.append(random.randint(200, 299))
         elif rec[4] == "House Tully":
             department.append("Human Resources")
             totalResources += 1
-            phoneExtension.append(random.choice([300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329]))
+            phoneExtension.append(random.randint(300, 399))
         elif rec[4] == "House Lannister":
             department.append("Accounting")
             totalAccounting += 1
-            phoneExtension.append(random.choice([400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429]))
+            phoneExtension.append(random.randint(400, 499))
         elif rec[4] == "House Baratheon":
             department.append("Sales")
             totalSales += 1
-            phoneExtension.append(random.choice([500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529]))
+            phoneExtension.append(random.randint(500, 599))
         elif rec[4] == "The Night's Watch":
             department.append("Auditing")
             totalAuditing += 1
-            phoneExtension.append(random.choice([600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,626,627,628,629]))
+            phoneExtension.append(random.randint(600, 699))
         else:
             department.append("----------")
             phoneExtension.append("------")
