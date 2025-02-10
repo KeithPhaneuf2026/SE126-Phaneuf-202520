@@ -3,7 +3,7 @@
 #Midterm
 #2/10/2025 
 
-#Program Prompt:
+#Program Prompt: Choice 2: books
 '''Utilizes the books.csv file.
 Fields in File
 Field 0 Field 1 Field 2 Field 3
