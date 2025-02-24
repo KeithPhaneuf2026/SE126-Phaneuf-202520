@@ -31,7 +31,7 @@ colors = []
 #we will use the below hand-populated list
 valid_menu = ["1", "2", "3", "4"]
 
-with open("Week 7/simple-2.csv") as csvfile: 
+with open("Week 7/w7d2/simple-2.csv") as csvfile: 
     file = csv.reader(csvfile)
 
     for rec in file: 
@@ -139,7 +139,7 @@ print("\nThank you for using my program.\n\t\tGOODBYE!\n")
 print("\n\n\n2D Lists---------------------------------------")
 dataFile = []
 
-with open("Week 7/simple-2.csv") as csvfile: 
+with open("Week 7/w7d2/simple-2.csv") as csvfile: 
     file = csv.reader(csvfile)
 
     for rec in file:
@@ -149,6 +149,6 @@ for i in range(0, len(dataFile)):
     print(f"dataFile[{i}]: {dataFile[i]}")
     for j in range(0, len(dataFile[i])):
         #print(f"\tdataFile[{i}][{j}]: {dataFile[i][j]}")
-        print(f"{dataFile[i][j]} ", end="")
+        print(f"{dataFile[i][j]}, ", end="")
     print()
 
