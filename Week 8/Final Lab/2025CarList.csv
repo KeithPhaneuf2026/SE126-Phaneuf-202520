@@ -1,1 +1,116 @@
-Ford,Bronco,$37995,300-418 HP,325-440 lb-ft of torque
+Chevrolet,Blazer,Midsize Crossover SUV,$35400,228 Horsepower,258 lb-ft of Torque,2.0 I4,25 MPG,Turbocharged
+Chevrolet,Blazer EV,EV Midsize Crossover SUV,48800,220,243,Electric,279 Miles of Range,------
+Chevrolet,Colorado,Midsize Pickup,29800,237,260,2.7 I4,22 MPG,Turbocharged
+Chevrolet,Equinox,Compact SUV,29995,175,203,1.5 I4,27 MPG,Turbocharged
+Chevrolet,Equinox EV,EV Compact Crossover SUV,41900,220,243,Electric,319 Miles of Range,------
+Chevrolet,Silverado 1500,Fullsize Pickup,37000,310,430,2.7 I4,19 MPG,Turbocharged
+Chevrolet,Silverado 2500,3/4 Ton Pickup,44400,401,464,6.6 V8,------,Naturally Aspirated
+Chevrolet,Suburban,Fullsize SUV,62000,355,383,5.3 V8,16 MPG,Naturally Aspirated
+Chevrolet,Tahoe,Fullsize SUV,59000,355,383,5.3 V8,17 MPG,Naturally Aspirated
+Chevrolet,Trailblazer,Subcompact Crossover SUV,23100,155,174,1.3 I3,31 MPG,Turbocharged
+Chevrolet,Trax,Subcompact Crossover SUV,20500,137,162,1.2 I3,30 MPG,Turbocharged
+Chevrolet,Traverse,Midsize SUV,37600,328,326,2.5 I4,21 MPG,Turbocharged
+Chevrolet,Malibu,Midsize Sedan,25800,163,184,1.5 I4,31 MPG,Turbocharged
+Chrysler,Pacifica,Minivan,42450,287,262,3.6 V6,22 MPG,Naturally Aspirated
+Dodge,Durango,Midsize SUV,41995,295,260,3.6 V6,20 MPG,Naturally Aspirated
+Dodge,Hornet,Compact Crossover SUV,31585,268,295,2.0 I4,24 MPG,Turbocharged
+Ford,Bronco,Midsize SUV,37995,300,325,2.3 I4,20 MPG,Turbocharged
+Ford,Bronco Sport,Compact Crossover SUV,29995,181,190,1.5 I3,26 MPG,Turbocharged
+Ford,Edge,Midsize Crossover SUV,38465,250,280,2.0 I4,23 MPG,Turbocharged
+Ford,Escape,Compact Crossover SUV,29150,180,199,1.5 I3,30 MPG,Turbocharged
+Ford,Expedition,Fullsize SUV,62000,400,480,3.5 V6,19 MPG,Twin Turbocharged
+Ford,Explorer,Midsize SUV,39755,300,310,2.3 I4,23 MPG,Turbocharged
+Ford,F-150,Fullsize Pickup,37450,325,400,2.7 V6,22 MPG,Twin Turbocharged
+Ford,F-150 Lightning,EV Fullsize Pickup,62995,452,775,Electric,240 Miles of Range,------
+Ford,F-250,3/4 Ton Pickup44970,405,445,6.8 V8,------,Naturally Aspirated
+Ford,Maverick,Compact Pickup,26995,191,155,2.5 Hybrid I4,37 MPG,Naturally Aspirated
+Ford,Mustang,Coupe,31920,315,350,2.3 I4,26 MPG,Turbocharged
+Ford,Mustang Mach-E,EV Compact Crossover SUV,36495,264,387,Electric,260 Miles of Range,------
+Ford,Ranger,Midsize Pickup,33080,270,310,2.3 I4,22 MPG,Turbocharged
+Honda,Accord,Midsize Sedan,28295,192,192,1.5 I4,32 MPG,Turbocharged
+Honda,Civic,Compact Sedan,24250,150,133,2.0 I4,36 MPG,Naturally Aspirated
+Honda,Civic Hatchback,Hatchback,27450,150,133,2.0 I4,34 MPG,Naturally Aspirated
+Honda,CRV,Compact Crossover SUV,30100,190,179,1.5 I4,31 MPG,Naturally Aspirated
+Honda,HRV,Subcompact Crossover SUV,25400,158,138,2.0 I4,28 MPG,Naturally Aspirated
+Honda,Odyssey,Minivan,42220,280,262,3.5 V6,22 MPG,Naturally Aspirated
+Honda,Passport,Midsize SUV,44750,285,262,3.5 V6,21 MPG,Naturally Aspirated
+Honda,Pilot,Midsize Crossover SUV,40200,285,262,3.5 V6,22 MPG,Naturally Aspirated
+Honda,Prologue,EV SUV,47400,220,243,Electric,308 Miles of Range,------
+Honda,Ridgeline,Midsize Pickup,40150,280,262,3.5 V6,21 MPG,Naturally Aspirated
+Hyundai,Elantra,Compact Sedan,22125,147,132,2.0 I4,36 MPG,Naturally Aspirated
+Hyundai,Ioniq 5,Hatchback,42600,168,258,Electric,245 Miles of Range,------
+Hyundai,Ioniq 6,Midsize Sedan,37850,149,258,Electric,240 Miles of Range,------
+Hyundai,Kona,Subcompact Crossover SUV,24550,147,132,2.0 I4,31 MPG,Naturally Aspirated
+Hyundai,Palisade,Midsize Crossover SUV,37200,291,262,3.8 V6,22 MPG,Naturally Aspirated
+Hyundai,Santa Cruz,Compact Pickup,28750,191,181,2.5 I4,30 MPG,Naturally Aspirated
+Hyundai,Santa Fe,Midsize Crossover SUV,34300,277,311,2.5 I4,24 MPG,Turbocharged
+Hyundai,Sonata,Midsize Sedan,26900,191,181,2.5 I4,32 MPG,Naturally Aspirated
+Hyundai,Tucson,Compact Crossover SUV,28705,187,178,2.5 I4,28 MPG,Naturally Aspirated
+Hyundai,Venue,Subcompact Crossover SUV,20200,121,113,1.6 I4,31 MPG,Naturally Aspirated
+Jeep,Compass,Compact SUV,26900,200,221,2.0 I4,27 MPG,Turbocharged
+Jeep,Gladiator,Midsize Pickup,38695,285,260,3.6 V6,19 MPG,Naturally Aspirated
+Jeep,Grand Cherokee,Midsize SUV,36495,293,260,3.6 V6,22 MPG,Naturally Aspirated
+Jeep,Wagoneer,Fullsize SUV,59495,420,486,3.0 I6,20 MPG,Twin Turbocharged
+Jeep,Wrangler,Midsize SUV,32690,285,260,3.6 V6,19 MPG,Naturally Aspirated
+Mazda,CX-30,Subcompact Crossover SUV,25195,191,186,2.5 I4,29 MPG,Naturally Aspirated
+Mazda,CX-5,Compact Crossover SUV,28770,187,186,2.5 I4,26 MPG,Naturally Aspirated
+Mazda,CX-50,Compact Crossover SUV,30500,187,185,2.5 I4,27 MPG,Naturally Aspirated
+Mazda,CX-70,Midsize SUV,40445,280,332,3.3 I6,25 MPG,Turbocharged
+Mazda,CX-90,Fullsize SUV,38045,280,332,3.3 I6,25 MPG,Turbocharged
+Mazda,3 Hatchback,Hatchback,25150,191,186,2.5 I4,30 MPG,Naturally Aspirated
+Mazda,3 Sedan,Compact Sedan,24150,191,186,2.5 I4,31 MPG,Naturally Aspirated
+Mazda,MX-5 Miata,Coupe,29530,181,151,2.0 I4,29 MPG,Naturally Aspirated
+Mitsubishi,Eclipse Cross,Compact Crossover SUV,26545,152,184,1.5 I4,26 MPG,Turbocharged
+Mitsubishi,Outlander,Compact Crossover SUV,29645,181,181,2.5 I4,27 MPG,Naturally Aspirated
+Mitsubishi,Outlander Sport,Subcompact Crossover SUV,23695,148,145,2.0 I4,26 MPG,Naturally Aspirated
+Nissan,Altima,Midsize Sedan,27000,188,180,2.5 I4,32 MPG,Naturally Aspirated
+Nissan,Ariya,EV Compact Crossover SUV,39770,214,221,Electric,216 Miles of Range,------
+Nissan,Armada,Fullsize SUV,56520,425,516,3.5 V6,18 MPG,Twin Turbocharged
+Nissan,Frontier,Truck,32050,310,281,3.8 V6,21 MPG,Naturally Aspirated
+Nissan,Kicks,Subcompact Crossover SUV,21830,141,140,2.0 I4,31 MPG,Naturally Aspirated
+Nissan,Leaf,EV Hatchback,28140,147,236,Electric,149 Miles of Range,------
+Nissan,Murano,Midsize Crossover SUV,40470,241,260,2.0 I4,23 MPG,Turbocharged
+Nissan,Pathfinder,Midsize SUV,37070,284,259,3.5 V6,23 MPG,Naturally Aspirated
+Nissan,Rouge,Compact Crossover SUV,29230,201,225,1.5 I3,33 MPG,Turbocharged
+Nissan,Sentra,Compact Sedan,21590,149,146,2.0 I4,34 MPG,Naturally Aspirated
+Nissan,Versa,Subcompact Sedan,17190,122,114,1.6 I4,30 MPG,Naturally Aspirated
+Nissan,Z,Coupe,42970,400,350,3.0 V6,22 MPG,Twin Turbocharged
+Ram,1500,Fullsize Pickup,40275,309,269,3.6 V6,23 MPG,Naturally Aspirated
+Ram,2500,3/4 Ton Pickup,45565,405,429,6.4 V8,------,Naturally Aspirated
+Subaru,Ascent,Midsize SUV,38910,260,277,2.4 Flat 4,22 MPG,Turbocharged
+Subaru,BRZ,Coupe,31210,228,184,2.4 Flat 4,22 MPG,Naturally Aspirated
+Subaru,Crosstrek,Compact Crossover SUV,25810,152,145,2.0 Flat 4,29 MPG, Naturally Aspirated
+Subaru,Forester,Compact Crossover SUV,29995,180,178,2.5 Flat 4,29 MPG,Naturally Aspirated
+Subaru,Impreza,Hatchback,23610,152,145,2.0 Flat 4,30 MPG, Naturally Aspirated
+Subaru,Legacy,Midsize Sedan,25210,182,176,2.5 Flat 4,30 MPG,Naturally Aspirated
+Subaru,Outback,Midsize Crossover SUV,29010,182,176,2.5 Flat 4,28 MPG,Naturally Aspirated
+Subaru,Solterra,Compact Crossover SUV,38495,215,249,Electric,227 Miles of Range,------
+Subaru,WRX,Compact Sedan,32735,271,258,2.4 Flat 4,21 MPG,Turbocharged
+Toyota,bZ4X,Compact SUV,37070,201,196,Electric,252 Miles of Range,------
+Toyota,Camry,Midsize Sedan,28700,225,163,2.5 Hybrid I4,51 MPG,Naturally Aspirated
+Toyota,Corolla,Compact Sedan,22325,169,151,2.0 I4,35 MPG,Naturally Aspirated
+Toyota,Corolla Cross,Compact Crossover SUV,24035,169,151,2.0 I4,32 MPG,Naturally Aspirated
+Toyota,Corolla Hatchback,Hatchback,23780,169,151,2.0 I4,35 MPG,Naturally Aspirated
+Toyota,Crown,Fullsize Sedan,41440,240,178,2.5 Hybrid I4,41 MPG,Naturally Aspirated
+Toyota,Crown Signia,Midsize Wagon,43590,240,178,2.5 Hybrid I4,38 MPG,Naturally Aspirated
+Toyota,GR Supra,Coupe,56250,382,368,3.0 I6,26 MPG,Turbocharged
+Toyota,Grand Highlander,Midsize SUV,40860,265,310,2.4 I4,23 MPG,Turbocharged
+Toyota,GR86,Coupe,30000,228,184,2.4 Flat 4,22 MPG,Naturally Aspirated
+Toyota,Highlander,Midsize SUV,39520,265,310,2.4 I4,25 MPG,Turbocharged
+Toyota,Land Cruiser,Midside SUV,56700,326,465,2.4 Hybrid I4,23 MPG,Turbocharged
+Toyota,Prius,Hatchback,28350,194,139,2.0 I4,57 MPG,Naturally Aspirated
+Toyota,RAV4,Compact Crossover SUV,28850,203,184,2.5 I4,30 MPG,Naturally Aspirated
+Toyota,Sequoia,Fullsize SUV,62425,437,583,3.4 V6,22 MPG,Twin Turbocharged
+Toyota,Sienna,Minivan,39185,245,176,2.5 Hybrid I4,36 MPG,Naturally Aspirated
+Toyota,Tacoma,Midsize Pickup,31590,228,243,2.4 I4,23 MPG,Turbocharged
+Toyota,Tundra,Fullsize Pickup,40090,358,406,3.4 V6,20 MPG,Twin Turbocharged
+Toyota,4Runner,Midsize SUV,40770,278,317,2.4 I4,22 MPG,Turbocharged
+Tesla,Model 3,EV Compact Sedan,42490,257,266,Electric,363 Miles of Range,------
+Tesla,Model Y,EV Compact Crossover SUV,44990,295,310,Electric,337 Miles of Range,------
+Volkswagen,Atlas,Midsize SUV,38200,269,273,2.0 I4,21 MPG,Turbocharged
+Volkswagen,Golf GTI,Hatchback,31965,241,273,2.0 I4,27 MPG,Turbocharged
+Volkswagen,ID. Buzz,Van,59995,282,413,Electric,231 Miles of Range,------
+Volkswagen,ID.4,EV Crossover SUV,39735,201,229,Electric,206 Miles of Range,------
+Volkswagen,Jetta,Compact Sedan,21995,158,184,1.5 I4,33 MPG,Turbocharged
+Volkswagen,Taos,Subcompact Crossover SUV,24995,177,184,1.5 I4,33 MPG,Turbocharged
+Volkswagen,Tiguan,Compact Crossover SUV,28880,184,221,2.0 I4,26 MPG,Turbocharged
