@@ -1,4 +1,4 @@
-Chevrolet,Blazer,Midsize Crossover SUV,$35400,228 Horsepower,258 lb-ft of Torque,2.0 I4,25 MPG,Turbocharged
+Chevrolet,Blazer,Midsize Crossover SUV,35400,228,258,2.0 I4,25 MPG,Turbocharged
 Chevrolet,Blazer EV,EV Midsize Crossover SUV,48800,220,243,Electric,279 Miles of Range,------
 Chevrolet,Colorado,Midsize Pickup,29800,237,260,2.7 I4,22 MPG,Turbocharged
 Chevrolet,Equinox,Compact SUV,29995,175,203,1.5 I4,27 MPG,Turbocharged
@@ -22,7 +22,7 @@ Ford,Expedition,Fullsize SUV,62000,400,480,3.5 V6,19 MPG,Twin Turbocharged
 Ford,Explorer,Midsize SUV,39755,300,310,2.3 I4,23 MPG,Turbocharged
 Ford,F-150,Fullsize Pickup,37450,325,400,2.7 V6,22 MPG,Twin Turbocharged
 Ford,F-150 Lightning,EV Fullsize Pickup,62995,452,775,Electric,240 Miles of Range,------
-Ford,F-250,3/4 Ton Pickup44970,405,445,6.8 V8,------,Naturally Aspirated
+Ford,F-250,3/4 Ton Pickup,44970,405,445,6.8 V8,------,Naturally Aspirated
 Ford,Maverick,Compact Pickup,26995,191,155,2.5 Hybrid I4,37 MPG,Naturally Aspirated
 Ford,Mustang,Coupe,31920,315,350,2.3 I4,26 MPG,Turbocharged
 Ford,Mustang Mach-E,EV Compact Crossover SUV,36495,264,387,Electric,260 Miles of Range,------
@@ -79,9 +79,9 @@ Ram,1500,Fullsize Pickup,40275,309,269,3.6 V6,23 MPG,Naturally Aspirated
 Ram,2500,3/4 Ton Pickup,45565,405,429,6.4 V8,------,Naturally Aspirated
 Subaru,Ascent,Midsize SUV,38910,260,277,2.4 Flat 4,22 MPG,Turbocharged
 Subaru,BRZ,Coupe,31210,228,184,2.4 Flat 4,22 MPG,Naturally Aspirated
-Subaru,Crosstrek,Compact Crossover SUV,25810,152,145,2.0 Flat 4,29 MPG, Naturally Aspirated
+Subaru,Crosstrek,Compact Crossover SUV,25810,152,145,2.0 Flat 4,29 MPG,Naturally Aspirated
 Subaru,Forester,Compact Crossover SUV,29995,180,178,2.5 Flat 4,29 MPG,Naturally Aspirated
-Subaru,Impreza,Hatchback,23610,152,145,2.0 Flat 4,30 MPG, Naturally Aspirated
+Subaru,Impreza,Hatchback,23610,152,145,2.0 Flat 4,30 MPG,Naturally Aspirated
 Subaru,Legacy,Midsize Sedan,25210,182,176,2.5 Flat 4,30 MPG,Naturally Aspirated
 Subaru,Outback,Midsize Crossover SUV,29010,182,176,2.5 Flat 4,28 MPG,Naturally Aspirated
 Subaru,Solterra,Compact Crossover SUV,38495,215,249,Electric,227 Miles of Range,------
